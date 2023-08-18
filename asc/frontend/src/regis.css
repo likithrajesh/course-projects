@@ -1,0 +1,26 @@
+#regpage {
+    background-color: rgb(56,55,55);
+    color: white;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+#searchbox {
+    padding: 30px;
+}
+
+p.regEn  {
+    margin: 0px;
+    padding: 0px;
+}
+
+.regisEntries {
+    background-color: rgb(185, 184, 184);
+    color: black;
+    height: fit-content;
+    padding : 10px;
+    margin : 20px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,47 @@
+.homepage {
+    margin: 0px;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    min-height: 100vh;
+    height: fit-content;
+    text-align: center;
+}
+
+#genData {
+    padding: 50px;
+    height: fit-content;
+    align-self: center;
+}
+#semtabs {
+    padding: 50px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#currsem {
+    padding: 50px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.internalTabs {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: 2px solid rgb(184, 147, 25);
+    width: 1000px;
+    height: fit-content;
+}
+    
+th {
+    border-bottom: 1px solid rgb(184, 147, 25);
+}
+
+td {
+    text-align: center;
+}

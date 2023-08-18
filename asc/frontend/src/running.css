@@ -1,0 +1,15 @@
+.running_page {
+    background-color: rgb(56,55,55);
+    color: white;
+    min-height: 100vh;
+    height: fit-content;
+    padding-top: 30px;
+}
+
+a:link {
+    color : yellow;
+}
+
+a:visited {
+    color : rgb(136, 136, 23)
+}
