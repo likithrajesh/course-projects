@@ -1,0 +1,7 @@
+I made an array of numbers 0 to 15.
+I then shuffled them and wrote a code for checking it's solvability.
+It shuffles maintaining the condition of solvability.
+I made the empty button red and remaining buttons yellow and increased the label size to 30.
+I declared an array to store the numbers, a pointer that points to empty button always and a two dimensinal array of button pointers containing the addresses of the sixteen buttons.
+In class my button , I declared two extra variables namely x_coordinate and y_coordinate to check the neighbours to empty button easily.
+I made a function named change_number_and_color to swap the color of empty button and neighbour button after a valid click and updating the numbers array.

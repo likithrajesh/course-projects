@@ -1,0 +1,27 @@
+{% extends 'logged_in_base.html' %}
+
+{% block head %}
+<title>Profile</title>
+{% endblock %}
+
+{% block body %}
+<br><br>
+<div class="container">
+    <h2>{{user.get_full_name}} (@{{user}})</h2>
+    <i>{{user.profile.no_of_followers}} followers</i><br>
+    <i>Profile last updated : {{user.profile.last_update}}</i>
+
+    {% if can_update == 1 %}
+    <a href='/accounts/update'><u>( Update Now )</u></a>
+    <br>
+    {% endif %}
+    
+    <ul>
+        {% for repo in repos %}
+        <li>{{ repo.name }} {{ repo.stars }} stars</li>
+        {% endfor %}
+    </ul>
+    
+
+</div>
+{% endblock %}

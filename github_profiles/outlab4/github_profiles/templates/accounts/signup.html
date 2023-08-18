@@ -1,0 +1,16 @@
+{% extends 'logged_out_base.html' %}
+
+{% block head %}
+<title>Sign Up</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+<h2>Sign Up</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Submit</button>
+</form>
+</div>
+{% endblock %}

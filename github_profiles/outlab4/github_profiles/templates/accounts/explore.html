@@ -1,0 +1,17 @@
+{% extends 'logged_in_base.html' %}
+
+{% block head %}
+<title>Explore</title>
+{% endblock %}
+
+{% block body %}
+<br><br>
+<div class="container">
+<ul>
+    {% for user in users %}
+        <li><a class="btn btn-outline-primary" href="/accounts/profile/{{user.id}}" role="button">{{user.username}}</a></li>
+        <br>
+    {% endfor %}
+</ul>
+</div>
+{% endblock %}
